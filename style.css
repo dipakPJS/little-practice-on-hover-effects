@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .main{
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 100vh;
+ }
+
+ .bulb-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     height: 50%;
+     width: 50%;
+     background-color: white;
+     box-shadow: inset 0 0 20px black;
+     border-top: 5px solid blue;
+     border-bottom: 5px solid rgb(255, 0, 0);
+     border-radius: 20px;
+     transition: 0.3s ease;
+   
+ }
+
+ .bulb-section:hover{
+    background-color: royalblue;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white, inset 0 0 30px black;
+ }
+
+  
